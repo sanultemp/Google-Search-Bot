@@ -11,17 +11,15 @@ API = "https://api.abirhasan.wtf/google?query="
 
 Bot = Client(
     "Google-Search-Bot",
-    bot_token = os.environ["BOT_TOKEN"],
-    api_id = int(os.environ["API_ID"]),
-    api_hash = os.environ["API_HASH"]
+    bot_token = os.environ["2126509842:AAEivNO4mI0Ky9808Ma9Pf5_riuanbqjG-0"],
+    api_id = int(os.environ["8901416"]),
+    api_hash = os.environ["ff05861c1bf07edcb2644f7f308584df"]
 )
 
 
 START_TEXT = """Hello {}
 I am a google search bot.
-
 > `I can search from google. Use me in inline.`
-
 Made by @FayasNoushad"""
 
 JOIN_BUTTON = [
